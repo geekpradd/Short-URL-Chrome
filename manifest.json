@@ -1,0 +1,31 @@
+{
+  "name": "ShortURL Chrome Extension",
+  "description":"Shorten URL's Extemsion",
+  "omnibox":{
+    "keyword": "shorten"
+  },
+  "background":{
+    "scripts":["background.js"]
+  },
+  "permissions":[
+      "http://*/",
+      "tabs",
+      "clipboardWrite",
+            "clipboardRead"
+  ],
+  "browser_action":{
+      "default_icon":{
+        "19":"icons/logo-19.png",
+        "38":"icons/logo-38.png"
+      },
+      "default_title":"ShortURL"
+    },
+  "icons":{
+      "16":"icons/logo-16.png","48":"icons/logo-48.png","128":"icons/logo-128.png"
+    },
+  "version":"1.0",
+  "minimum_chrome_version":"9.0",
+  "manifest_version":2
+
+
+}
