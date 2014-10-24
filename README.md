@@ -1,9 +1,12 @@
 #Short-URL Chrome Extension
 ShortURL is a URL Shortener and this is the source code of the Official Chrome Extension of ShortURL
+
 Version 1.0
 
 Created by Pradipta Parag AKA GeekPradd
+
 Created using HTML5, jQuery, Javascript, CSS3 and Chrome Developer Tools
+
 ShortURL built using PHP, MySQL and HTML5
 
 (C) 2014 Akshat and Pradipta
